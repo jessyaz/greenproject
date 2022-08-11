@@ -1,0 +1,27 @@
+{
+  "name": "@bobbyg603/ngx-toggle",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/bobbyg603/ngx-toggle"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "scripts": {
+    "test:app": "ng test ngx-toggle-example --no-watch --no-progress --browsers=ChromeHeadlessCI",
+    "scriptname": "npm run test:lib && npm run test:app"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release-cli": "^5.4.4"
+  }
+}
